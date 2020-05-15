@@ -1,0 +1,117 @@
+.resume-header{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #48C9B0;
+    color: white;
+  }
+  
+  .name{
+    padding-top: 10%;
+    padding-left: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .sub {
+  
+    padding-left: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+  }
+  .sub-header {
+    padding-bottom: 2%;
+  }
+
+.Body{
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    color: Black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border : 1px solid grey;
+  }
+  
+  .profile{
+    margin-top: 0;
+    padding-top: 2%;
+    padding-left: 7%;
+    padding-right : 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .profile-head {
+    font-weight: bold;
+    font-size: 15px;
+    color : #48C9B0;
+    margin-bottom: 1%;
+  }
+  
+  .profile-content{
+    font-size : 12px;
+    color : #5D6D7E;
+  }
+  
+  .date{
+    padding-bottom : 0;
+  }
+
+  i{
+      color : black;
+      margin-right : 4px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  li{
+    padding-left : 0;
+  }
+
+  .gridFlex{
+      display : flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .skills-body{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+
+
+  /* For mobile phones: */
+  @media only screen and (max-width: 768px) {
+    .Body{
+      margin-left: 0;
+      margin-right: 0;
+      background-color: white;
+      color: Black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border : none;
+    }
+
+    .resume-header{
+      margin-left: 0;
+      margin-right: 0;
+      background-color: #48C9B0;
+      color: white;
+    }
+
+    .profile{
+      padding-top: 4%;
+      padding-left: 2%;
+      padding-right : 2%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+    .gridFlex{
+      display : flex;
+      flex-direction: column;
+      justify-content: none;
+  }
+    
+  }
